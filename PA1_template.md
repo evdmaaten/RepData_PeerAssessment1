@@ -90,7 +90,11 @@ sum(is.na(datafile))
 ```
 ## [1] 2304
 ```
+##### Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
 
+```r
+#create a new dataframe called imputeddatafile to fill in the NA's
 
-
+imputeddatafile <- datafile
+```
 ## Are there differences in activity patterns between weekdays and weekends?

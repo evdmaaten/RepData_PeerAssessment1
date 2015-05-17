@@ -126,6 +126,12 @@ plot(FiveMinuteIntervals, type = &quot;l&quot;)</code></pre>
 <pre class="r"><code>sum(is.na(datafile))</code></pre>
 <pre><code>## [1] 2304</code></pre>
 </div>
+<div id="devise-a-strategy-for-filling-in-all-of-the-missing-values-in-the-dataset.-the-strategy-does-not-need-to-be-sophisticated.-for-example-you-could-use-the-meanmedian-for-that-day-or-the-mean-for-that-5-minute-interval-etc." class="section level5">
+<h5>Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.</h5>
+<pre class="r"><code>#create a new dataframe called imputeddatafile to fill in the NA's
+
+imputeddatafile &lt;- datafile</code></pre>
+</div>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">
 <h2>Are there differences in activity patterns between weekdays and weekends?</h2>
